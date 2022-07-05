@@ -15,8 +15,8 @@ public class Algo51 {
 
         for (int i = 0; i < n; i++) {
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
-        }
 
+        }
         for (char a : map.keySet()) {
             if (result < map.get(a)) {
                 result = map.get(a);
